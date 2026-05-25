@@ -2,7 +2,8 @@ package br.com.geekuniversity.secao02;
 
 import java.util.Scanner;
 
-//fazer um algoritmo para somar dois números e multiplicar o resultado pelo primeiro numero
+//fazer um algoritmo para somar dois números e multiplicar o resultado pelo primeiro numero.
+
 public class Exercicio02 {
 
 	public static void main(String[] args) { 
