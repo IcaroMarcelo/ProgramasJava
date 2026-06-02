@@ -18,16 +18,18 @@ public class Exercicio06 {
 		n = teclado.nextFloat();
 		//processamento
 		if(n > 50) {
-			e = (float)(n - 50) * (float)20.00;
-			salario = (50 * valor_hora) + e;
-			System.out.printf("Salario Total R$ %.2f\n", salario);
-			System.out.printf("Salario excedente R$ %.2f\n", e); 
-		}else {
-			salario = n * valor_hora;
-			System.out.printf("Salario Total R$ %.2f\n", salario);
-			System.out.printf("Salario excedente R$ %.2f\n", e); 
+		    e = (n - 50) * 20;
+		    salario = (50 * valor_hora) + e;
+		} else {
+		    salario = n * valor_hora;
 		}
+
+		System.out.printf("Código do operário: %d\n", c);
+		System.out.printf("Salário Total: R$ %.2f\n", salario);
+		System.out.printf("Salário Excedente: R$ %.2f\n", e);
 		teclado.close();
+		}
+		
 	}
 
-}
+
