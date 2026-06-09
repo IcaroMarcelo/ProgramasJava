@@ -1,5 +1,7 @@
 package br.com.geekuniversity.secao08;
-
+//fazer um algoritmo que carregue um vetor de 5 elementos inteiros
+//em seguida armazenar em um vetor apenas os numeros pares maiores que 0.
+//no final deve mostrar os elementos do vetor na tela.
 import java.util.ArrayList;
 
 public class Exercicio01 {

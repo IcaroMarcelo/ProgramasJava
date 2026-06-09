@@ -1,5 +1,6 @@
 package br.com.geekuniversity.secao08;
-
+//fazer um programa que carregue um vetor com 10 numeros inteiros.
+// mostre o vetor na ordem inversa a que foi digitado.
 import java.util.Scanner;
 
 public class Exercicio03 {

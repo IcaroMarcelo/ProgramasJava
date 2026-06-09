@@ -1,5 +1,6 @@
 package br.com.geekuniversity.secao08;
-
+//Escrever um algoritmo que leia dois vetores de 10 posições e faça a soma dos elementos do mesmo indice
+//colocando o resultado em um terceiro vetor. mostre o vetor resultante.
 
 import java.util.Scanner;
 
